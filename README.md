@@ -9,7 +9,7 @@ URLs to call:
 ```bash
 curl http://localhost:8080/test
 
-http://localhost:8080/params/1234
+curl http://localhost:8080/params/1234
 
 curl -X POST http://localhost:8080/send -d '{"name": "chip", "active": true }'
 ```
